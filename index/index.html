@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="Style-Sheets/nav.css">
+  <link rel="stylesheet" href="Style-Sheets/style.css">
+  <link rel="stylesheet" href="Style-sheets/@tab.css">
+  <link rel="stylesheet" href="Style-sheets/@mobile.css">
+
+
+
+  <title>Document</title>
+
+</head>
+<body>
+
+  <script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-49b310d6-8bf3-4f47-8614-6019b74cf2f2" data-elfsight-app-lazy></div>
+
+  <nav style="position: sticky; top: 0;z-index: 100; backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px); ">
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960"
+            width="26" style="fill: aliceblue;">
+            <path
+              d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+          </svg></a></li>
+     
+          <li  class="active"><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="projrcts.html">Projects</a></li>
+          <li><a href="price.html"> pricing</a></li>
+          <li><a href="contact.html">Contact & Support</a></li>
+    </ul>
+      <div class="left">
+      <a href="index.html" style="font-size:20px;font-weight:700;"><img src="assets/logo.png" height="70px" width="70px" 
+      class="img1"> <img src="assets/hero/white logo .png" width="400px" class="img2"></a>
+    </div>
+      
+      <div class="Right">
+        <ul>
+          <li class="hideOnMobile active"><a href="index.html">Home</a></li>
+          <li class="hideOnMobile"><a href="services.html">Services</a></li>
+          <li class="hideOnMobile"><a href="courses.html">Courses</a></li>
+          <li class="hideOnMobile"><a href="projrcts.html">Projects</a></li>
+          <li class="hideOnMobile"><a href="price.html"> pricing</a></li>
+          <li class="hideOnMobile"><a href="contact.html">Contact & Support</a></li>
+   
+
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+            viewBox="0 96 960 960" width="26">
+            <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" style="fill: #f0f0f0;" />
+          </svg></a></li>
+    </ul>
+ </div>
+
+  </nav>
+
+  <script>
+    function showSidebar() {
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar() {
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+  </script>
+
+
+  
+</div>
+
+<div class="scroll">
+  <marquee behavior="" direction="left"
+    style="color: rgb(255, 255, 255);margin: 0 5%; border-top:solid; border-width:  1px 0 0 0;border-color: rgb(255, 255, 255);">
+    Hey there..!
+    Welcome to <strong>IR Web Developers</strong>
+    Transforming digital dreams into reality with innovation, passion, and excellence. Let's build the
+    future
+    together.
+   </marquee>
+</div>
+
+<!-- <div class="dropdown">
+  <button class="dropbtn"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-person-raised-hand" viewBox="0 0 16 16" >
+    <path d="M6 6.207v9.043a.75.75 0 0 0 1.5 0V10.5a.5.5 0 0 1 1 0v4.75a.75.75 0 0 0 1.5 0v-8.5a.25.25 0 1 1 .5 0v2.5a.75.75 0 0 0 1.5 0V6.5a3 3 0 0 0-3-3H6.236a1 1 0 0 1-.447-.106l-.33-.165A.83.83 0 0 1 5 2.488V.75a.75.75 0 0 0-1.5 0v2.083c0 .715.404 1.37 1.044 1.689L5.5 5c.32.32.5.754.5 1.207"/>
+    <path d="M8 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+  </svg></button>
+  <div class="dropdown-content">
+    <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-arrow-up-square" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm8.5 9.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+      </svg>
+      <p>Go to top</p>
+    </a>
+<br>
+<a href="">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-share-fill" viewBox="0 0 16 16">
+        <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5"/>
+      </svg>
+      <p>share</p>
+</a>
+<br>
+<a href="">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-bell" viewBox="0 0 16 16">
+        <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6"/>
+      </svg>
+      <p style="left:2px;">Offer alert</p>
+</a>
+<br>
+<a href="contact.html">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+        <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z"/>
+      </svg>
+      <p>Contact</p>
+</a>
+  </div>
+</div> -->
+<!-- hero (L)-->
+ <div class="hero">
+  
+  <img src="assets/hero/logoblack.png" height="800px" width="800px" class="bg-img">
+
+    <div class="sec-1">
+        <img src="assets/hero/girl.png" class="im-1">
+    </div>
+    <div class="sec-2">
+        <h1 style="font-size: 70px; font-weight: 800; margin-top: 10%; margin-left: 5%;">
+            Hey there..!
+        </h1>
+        <h1 style="font-size: 30px; font-weight: 650;margin-top: 5%;  margin-left: 5%;">Welcome to </h1>
+        <img src="assets/hero/IR-WEB-DEVELOPERS-BLACK.png" width="80%" style="margin-left: 5%;">
+        <p style="margin-left: 5%;margin-top: 4%;font-size: 18px; font-weight: 400; ">
+            At <strong>IR Web Developers</strong>, we bring your digital vision to life. <br> Our expert web developers create websites that are visually stunning, functional, and user-friendly.
+        </p>
+        <p style="margin-left: 5%;margin-top: 4%;font-size: 18px; font-weight: 400; ">"Get the education you need and the website you deserve, all in one place."</p>
+        <div style=" display: flex; 
+        flex-direction: row;
+        gap: 10%; "class="btn">
+        <button>Contact</button><button>Pricing</button>
+    </div>
+    </div>
+
+
+
+
+
+      <div class="sec-3">
+      <div class="sec-31">
+        <h1 style="font-size: 70px; font-weight: 800; margin-top: 10%; margin-left: 5%;">
+          Hey there..!
+      </h1>
+      <div class="txt31">
+      <h1 style="font-size: 30px; font-weight: 650;margin-top: 2%;  margin-left: 5%;">Welcome to </h1>
+      <img src="assets/hero/IR-WEB-DEVELOPERS-BLACK.png" width="80%" style="margin-left: 5%;" >
+      <p style="margin-left: 5%;margin-top: 2%;font-size: 15px; font-weight: 400; ">
+          At <strong>IR Web Developers</strong>, we bring your digital vision to life. <br> Our expert web developers create websites that are visually stunning, functional, and user-friendly.
+      </p>
+      <p style="margin-left: 5%;margin-top: 1%;font-size: 15px; font-weight: 400; ">"Get the education you need and the website you deserve, all in one place."</p>
+
+       </div>
+      <div style=" display: flex; 
+      flex-direction: row;
+      gap: 10%; "class="btn">
+      <button>Contact</button><button>Pricing</button>
+     </div>
+      </div>
+
+      <div class="sec-32"> <img src="assets/hero/boy.PNG" alt="" class="im-2"></div>
+     </div>
+
+
+     <div class="sec-4">
+      
+      <img src="assets/hero/logoblack.png" alt="" style="margin-top: 80px; height: 100px; width: 105px;">
+      <h1> Welcome to <strong>IR Web Developers</strong></h1>
+      <p style="margin-top: 10%;font-size: 15px; font-weight: 400; text-align: center; ">
+        At <strong>IR Web Developers</strong>,<br> we bring your digital vision to life. <br> Our expert web developers create websites that are visually stunning, functional, and user-friendly.
+    </p>
+    <div class="btn">
+      <button>Contact</button><button>Pricing</button>
+     </div>
+     </div>
+</div>
+<!-- about section -->
+<div class="about">
+  <div class="picsec">
+      <div class="pic2"><div class="overlay"> 
+        <img src="assets/hero/logoblack.png" alt="" style="position: relative;margin: auto; height: 80px; width: 105px;">
+      </div></div>
+      <div class="pic1"><div class="overlay"><img src="assets/hero/logoblack.png" alt="" style="position: relative;margin: auto; height: 80px; width: 105px;"></div></div>
+  </div>
+  <div class="textsec">
+      <div class="topt"> 
+           <h3>Who we are ?</h3>
+           <h1>Highly Tailored Web Design, Management & Support Services.</h1>
+          <p>IR Web Developers is a hub for both web development services and learning. We create stunning, high-performance websites and web applications while also empowering aspiring developers with hands-on tutorials and resources.
+              <br>
+             
+              Whether you need a professional website or want to master web development, we've got you covered!</p>
+              <br>
+              <p style=" font-weight: 600;">💡 Build. Learn. Innovate. 🚀</p>
+          </div>
+      <div class="btmsec">
+          <div class="s2">
+              <h3 style="margin: 5px;">Our Mission</h3>
+              <p>
+                  At IR Web Developers, we create custom, high-performance web solutions while providing a learning platform for aspiring developers. We believe in writing clean, efficient code tailored to your needs. <br>🚀 Build. Learn. Innovate.
+                  </p>
+          </div>
+          <div class="s1">
+              <h3 style="margin: 5px;">Custom Code, Tailored for You</h3>
+              <p>We craft clean, efficient, and custom code to bring unique ideas to life. From frontend designs to backend systems, every line of code is optimized for performance. <br><br>🚀 Your Vision, Our Code!</p>
+          </div>
+      </div>
+  </div>
+</div>
+   
+<div class="team">
+  <div class="img"></div>
+  <div class="img"></div>
+  <div class="img"></div>
+  <div class="img"></div>
+  <div class="img"></div>
+  <div class="img"></div>
+</div>
+
+
+  <!-- STATISTICS -->
+
+
+  <section class="text-gray-600 body-font" style="background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.604) 0%, rgba(185, 185, 185, 0) 100%); color:white; ">
+    <div class="container px-5 py-10 mx-auto">
+      <div class="flex flex-wrap -m-4 text-center">
+        <div class="p-4 sm:w-1/4 w-1/2">
+          <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900" >0</h2>
+          <p class="leading-relaxed">Number of projects done</p>
+        </div>
+        <div class="p-4 sm:w-1/4 w-1/2">
+          <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900"  >4.5 / 5 &star;</h2>
+          <p class="leading-relaxed">Client ratings</p>
+        </div>
+        <div class="p-4 sm:w-1/4 w-1/2"id="likeContainer" class="like-container">
+          <span style="display:flex; justify-content: center;">
+          <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900" id="likeCount">50</h2>
+          <span id="heartSymbol" class="heart">🤍</span>
+        </span>
+          <p class="leading-relaxed">Likes</p>
+        </div>
+
+        <style>
+       
+          .like-container {
+           
+              cursor: pointer;
+              user-select: none;
+          }
+          .heart {
+              font-size: 30px;
+              margin-right: 10px;
+              transition: transform 0.2s ease-in-out;
+          }
+          .liked .heart {
+              color: red;
+              transform: scale(1.2);
+          }
+          .like-text {
+              font-size: 16px;
+              margin-top: 5px;
+          }
+      </style>
+  
+      <script>
+          // Get stored like count and status
+          let likeCount = localStorage.getItem("likeCount") || 0;
+          let isLiked = localStorage.getItem("isLiked") === "true";
+  
+          // Set initial values
+          document.getElementById("likeCount").textContent = likeCount;
+          const likeContainer = document.getElementById("likeContainer");
+          const heartSymbol = document.getElementById("heartSymbol");
+  
+          if (isLiked) {
+              likeContainer.classList.add("liked");
+              heartSymbol.textContent = "❤️";
+          }
+  
+          // Like button click event
+          likeContainer.addEventListener("click", function() {
+              if (isLiked) {
+                  likeCount--;
+                  isLiked = false;
+                  heartSymbol.textContent = "🤍"; // Empty heart
+                  likeContainer.classList.remove("liked");
+              } else {
+                  likeCount++;
+                  isLiked = true;
+                  heartSymbol.textContent = "❤️"; // Filled heart
+                  likeContainer.classList.add("liked");
+              }
+  
+              // Update localStorage
+              localStorage.setItem("likeCount", likeCount);
+              localStorage.setItem("isLiked", isLiked);
+  
+              // Update display
+              document.getElementById("likeCount").textContent = likeCount;
+          });
+      </script>
+  
+  
+
+        <div class="p-4 sm:w-1/4 w-1/2">
+          <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900" id="visitCount" >0</h2>
+          <p class="leading-relaxed">Visitors</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+
+  <script>
+    // Get visit count from localStorage
+    let visitCount = localStorage.getItem("visitCount");
+
+    // If no count exists, start from 1, else increment
+    if (visitCount === null) {
+        visitCount = 1;
+    } else {
+        visitCount = parseInt(visitCount) + 1;
+    }
+
+    // Update localStorage
+    localStorage.setItem("visitCount", visitCount);
+
+    // Display count
+    document.getElementById("visitCount").textContent = visitCount;
+</script>
+
+
+<!-- scroll animation -->
+ 
+<div class="scroli-animation">
+  <div class="scroli-animation-txt">
+<h1>Full-Scale Web Development by <strong>IR Web Developers</strong></h1>
+<div class="line" style="width: 80%;"></div>
+<p>Throughout all web development services, IR Web Developer adheres to a quality-first approach based on ISO 9001-certified quality management system. Our comprehensive security management program with robust security controls, policies and technologies is compliant with ISO 27001 regulations. </p>
+</div>
+
+
+<div class="wrapper1">
+  <div class="itemLeft item1"><img src="assets/softwares logos/1.png" alt=""></div>
+  <div class="itemLeft item2"><img src="assets/softwares logos/2.png" alt=""></div>
+  <div class="itemLeft item3"><img src="assets/softwares logos/3.png" alt=""></div>
+  <div class="itemLeft item4"><img src="assets/softwares logos/4.png" alt=""></div>
+  <div class="itemLeft item5"><img src="assets/softwares logos/8.png" alt=""></div>
+  <div class="itemLeft item6"><img src="assets/softwares logos/11.png" alt=""></div>
+  <div class="itemLeft item7"><img src="assets/softwares logos/7.png" alt=""></div>
+  <div class="itemLeft item8"><img src="assets/softwares logos/8.png" alt=""></div>
+  <div class="itemLeft item7"><img src="assets/softwares logos/9.png" alt=""></div>
+  <div class="itemLeft item8"><img src="assets/softwares logos/10.png" alt=""></div>
+  <div class="itemLeft item8"><img src="assets/softwares logos/12.png" alt=""></div>
+  <div class="itemLeft item7"><img src="assets/softwares logos/13.png" alt=""></div>
+  <div class="itemLeft item8"><img src="assets/softwares logos/14.png" alt=""></div>
+</div>
+<div class="wrapper2">
+  <div class="itemRight item1"><img src="assets/social media/a.png" alt=""></div>
+  <div class="itemRight item2"><img src="assets/social media/b.png" alt=""></div>
+  <div class="itemRight item3"><img src="assets/social media/c.png" alt=""></div>
+  <div class="itemRight item4"><img src="assets/social media/d.png" alt=""></div>
+  <div class="itemRight item5"><img src="assets/social media/e.png" alt=""></div>
+  <div class="itemRight item6"><img src="assets/social media/f.png" alt=""></div>
+  <div class="itemRight item7"><img src="assets/social media/g.png" alt=""></div>
+  <div class="itemRight item8"><img src="assets/social media/h.png" alt=""></div>
+</div>
+<p style="font-size: 12px; font-weight: 600; margin:0 45%; margin-top:50px;">Explore our services</p>
+</div>
+
+ 
+<!-- component -->
+<div class="relative flex items-top justify-center min-h-screen bg-white dark:bg-gray-900 sm:items-center sm:pt-0" style="background: url(assets/services/bg3.jpg);background-position: center;background-repeat: no-repeat;background-attachment: fixed; background-size: cover; height: 400px;">
+  <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
+      <div class="mt-8 overflow-hidden">
+          <div class="grid grid-cols-1 md:grid-cols-2">
+              <div class="p-6 mr-2 bg-gray-100 dark:bg-gray-800 sm:rounded-lg" style="background-color: rgba(0, 0, 0, 0.53);">
+                  <h1 class="text-4xl sm:text-5xl text-gray-800 dark:text-white font-extrabold tracking-tight">
+                      Get in touch
+                  </h1>
+                  <p class="text-normal text-lg sm:text-2xl font-medium text-gray-600 dark:text-gray-400 mt-2">
+                      Fill in the form to start a conversation
+                  </p>
+
+                  <div class="flex items-center mt-8 text-gray-600 dark:text-gray-400">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                      </svg>
+                      <div class="ml-4 text-md tracking-wide font-semibold w-40">
+                          Tadipatri,Anantapuram,Andhrapradesh,
+                          515411
+                      </div>
+                  </div>
+
+                  <div class="flex items-center mt-4 text-gray-600 dark:text-gray-400">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                      </svg>
+                      <div class="ml-4 text-md tracking-wide font-semibold w-40">
+                          +91 9573768022
+                      </div>
+                  </div>
+
+                  <div class="flex items-center mt-2 text-gray-600 dark:text-gray-400">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                      </svg>
+                      <div class="ml-4 text-md tracking-wide font-semibold w-40">
+                          irwebdevelopers01@gmail.com
+                      </div>
+                  </div>
+              </div>
+
+              <form class="p-6 flex flex-col justify-center">
+                  <div class="flex flex-col">
+                      <label for="name" class="hidden">Full Name</label>
+                      <input type="name" name="name" id="name" placeholder="Full Name" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none" style="background-color: rgba(0, 0, 0, 0.53);">
+                  </div>
+
+                  <div class="flex flex-col mt-2">
+                      <label for="email" class="hidden">Email</label>
+                      <input type="email" name="email" id="email" placeholder="Email" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none" style="background-color: rgba(0, 0, 0, 0.53);">
+                  </div>
+
+                  <div class="flex flex-col mt-2">
+                      <label for="tel" class="hidden">Number</label>
+                      <input type="tel" name="tel" id="tel" placeholder="Telephone Number" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none " style="background-color: rgba(0, 0, 0, 0.53); color: white;">
+                  </div>
+                 
+
+                <div>
+                    <label for="message" class="hidden">Message</label>
+                    <textarea name="" id="" placeholder="Your Message"
+                    rows="2" class="w-100 mt-2 py-3 px-3 dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-white font-semibold focus:border-indigo-500 focus:outline-none rounded-lg "style="background-color: rgba(0, 0, 0, 0.53);width: 100%; "></textarea>
+                </div>
+
+                  <button type="submit" class="md:w-32 bg-indigo-600 hover:bg-blue-dark text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-indigo-500 transition ease-in-out duration-300">
+                      Submit
+                  </button>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<!-- footer -->
+<div class="footer1" style="background-color: black;" >
+<footer class="text-gray-950 body-font"  >
+  <div class="container px-0 py-1 mx-auto flex items-center sm:flex-row flex-col">
+    <a class="flex title-font font-medium items-center md:justify-start justify-center text-white" href="index.html">
+
+      <span class="ml-3 text-xl" style="color: rgb(255, 255, 255);">IR Web developers</span>
+    </a>
+    <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2020
+      irwebdevop —
+      <a href="index.html" class="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer" style="color: white;">@irwebdevop</a>
+    </p>
+    <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+      <a class="text-gray-400" href="https://www.facebook.com/profile.php?id=61556331415228&mibextid=ZbWKwL"
+        target="_blank">
+        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+          viewBox="0 0 24 24">
+          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-400"
+        href="https://www.instagram.com/imran_ibn_usman/profilecard/?igsh=dXVoN3lwMHpseW1s" target="_blank">
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          class="w-5 h-5" viewBox="0 0 24 24">
+          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+          <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-400"
+        href="https://www.linkedin.com/in/imran-chintakayamanda?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        target="_blank">
+        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"
+          class="w-5 h-5" viewBox="0 0 24 24">
+          <path stroke="none"
+            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+          <circle cx="4" cy="4" r="2" stroke="none"></circle>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-400" href="sms:+91 9573768022">
+        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+          viewBox="0 0 24 24">
+          <path
+            d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+          </path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-400" href="tel:+919573768022">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" fill="currentColor" class="bi bi-phone"
+          viewBox="0 0 16 16">
+          <path
+            d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+          <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+        </svg>
+      </a>
+    </span>
+  </div>
+</footer>
+</div>
+
+<div class="footer2">
+<div class="flex flex-col w-full h-fit bg-[#000000] text-[#e5e7eb] px-14 py-8" style="background-color: black; background:url(assets/hero/blackbg.png);background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;">
+  <div class="flex flex-row">
+      <div class="flex flex-col gap-2 justify-center w-[35%] w-[35%]">
+          <div class="flex items-center w-full "  style="width: 100%; height: 35%;">
+             <img src="assets/hero/white logo .png" width="80%" height="80%" alt="">
+          </div>
+          <div class="grid grid-cols-6 gap-6 mx-auto p-2"><a href="#">
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+              <a class="text-gray-400" href="https://www.facebook.com/profile.php?id=61556331415228&mibextid=ZbWKwL"
+                target="_blank">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                  viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-400"
+                href="https://www.instagram.com/imran_ibn_usman/profilecard/?igsh=dXVoN3lwMHpseW1s" target="_blank">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  class="w-5 h-5" viewBox="0 0 24 24">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-400"
+                href="https://www.linkedin.com/in/imran-chintakayamanda?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank">
+                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"
+                  class="w-5 h-5" viewBox="0 0 24 24">
+                  <path stroke="none"
+                    d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                  <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-400" href="sms:+91 9573768022">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                  </path>
+                </svg>
+              </a>
+              
+            </span>
+          </div>
+          <!---->
+      </div>
+      <div class="flex flex-row w-[65%] justify-end gap-16 text-nowrap">
+          <div class="grid grid-cols-2 gap-12">
+              <!---->
+              <div class="flex flex-col gap-2">
+                  <div class="font-bold uppercase text-[#8093b5] pb-3">Comany</div> <a href="#xxx" class="hover:underline">About Us</a>  <a href="#xxx" class="hover:underline">Contact</a>  <a href="#xxx" class="hover:underline">Support</a>  <a href="#xxx" class="hover:underline">News</a>
+
+              </div>
+              <!---->
+              <div class="flex flex-col gap-2">
+                  <div class="font-bold uppercase text-[#8093b5] pb-3">Legal</div> <a href="#xxx" class="hover:underline">Imprint</a>  <a href="#xxx" class="hover:underline">Privacy Policy</a>  <a href="#xxx" class="hover:underline">Terms of Use</a>
+
+              </div>
+              <!---->
+          </div>
+          <div class="Subscribe">
+          <div class="flex flex-col gap-4" ma>
+              <div class="font-bold uppercase text-[#8093b5] pb-3">Newsletter</div>
+              <p class="text-[#e5e7eb] mb-2">Subscribe to our newsletter.</p>
+              <form class="flex items-center">
+                  <input type="email" name="email" placeholder="Enter your email" class="w-full bg-gray-100 text-gray-700 rounded-l-lg py-3 px-4 focus:outline-none focus:ring-purple-600 focus:border-transparent" autocomplete="off" required="" fdprocessedid="u3skds">
+                  <button type="submit" class="bg-[#000000] text-[#ffffff] font-semibold py-1 px-6 rounded-r-lg transition-colors duration-300" fdprocessedid="ytssj4" >Subscribe</button>
+              </form>
+          </div>
+        </div>
+          <!---->
+      </div>
+  </div>
+  <div class="w-full border-t border-gray-500 my-2"></div>
+  <div class="text-center">© 2025 IR WEB DEVELOPERs - All rights reserved.</div>
+  <!---->
+</div>
+</div>
+
+
+</body>
+</html>

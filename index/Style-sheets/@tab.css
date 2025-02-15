@@ -1,0 +1,110 @@
+
+@media (max-width: 1025px) {
+ 
+    .sec-1{
+      display: none;
+    }
+    .sec-2{
+      display: none;
+    }
+    .bg-img{
+      display: none;
+    }
+    .hero-m{
+      display: block;
+    }
+    .sec-3{
+      display: contents;
+    }
+    .im-2{
+      z-index: 1;
+      width: 400px;
+      height: 650px;
+    position: relative;
+      margin-top: 10%;
+  
+    }
+    .sec-31 {
+      width: 60%;
+      height: 650px;
+    }
+    .sec-32 {
+      width: 40%;
+      height: 650px;
+    }
+    .btn{
+      width: 12%;
+      margin-top: 10%;
+  
+    }
+    .btn button{
+      border: 3px rgb(100, 100, 100) solid;
+      padding: 8px 40px;
+      border-radius: 50px 0px 50px 50px;
+      background-color: black;
+      color: azure;
+    }
+    .txt31{
+      margin-top: 15%;
+    }
+    .sec-4{
+      display: none;
+    }
+    .girl2{
+        display: none;
+      }
+
+      /* marquee */
+      .wrapper1 {
+        margin-inline: auto;
+        height: 80px;
+        width: 78%;
+      }
+      .wrapper2 {
+        margin-inline: auto;
+        height: 50px;
+        margin-top: 0;
+        width: 78%;
+      }
+      .itemLeft{
+        width: 50px;
+        height: 50px;
+        left: max(calc(50px * 8), 100%);
+      }
+      .itemRight {
+        width: 50px;
+        height: 50px;
+        right: max(calc(50px * 8), calc(100% + 100px));
+      }
+      .itemLeft img {
+        height:50px ;
+        width: 50px;
+      }
+      .dropbtn {
+        z-index: 50;
+    }
+
+    .scroli-animation{
+      position: relative;
+      z-index: 20;
+    }
+
+    .Subscribe{
+      display: none;
+    }
+    .footer2 img{ 
+      width: 100%;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+    }
